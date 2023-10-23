@@ -1,0 +1,52 @@
+.mainview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #aeaeae;
+}
+
+.nombre {
+  font-family: "Pixelify Sans", cursive !important;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+  max-width: 800px;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.arrow {
+  color: #e15e4a;
+  animation: animate 1.5s infinite;
+  margin-top: 20px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nombre {
+    font-size: 4rem;
+  }
+  .titulo {
+    font-size: 1.5rem;
+  }
+}

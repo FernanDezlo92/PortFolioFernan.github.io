@@ -1,0 +1,39 @@
+.aboutMe {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+  height: 100vh;
+}
+
+.about {
+  position: relative;
+  font-size: 12rem;
+  font-weight: bold;
+  opacity: 0.1;
+  background-color: #e15e4a;
+  /* transform: translateX(-500px); */
+}
+
+.textoAboutMe {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    font-size: 6.5rem;
+  }
+  .textoAboutMe {
+    font-size: 16px;
+    max-width: 300px;
+  }
+}

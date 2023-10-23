@@ -1,0 +1,100 @@
+.contactMe {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #aeaeae;
+  height: 100vh;
+}
+
+.contact {
+  position: relative;
+  font-size: 12rem;
+  font-weight: bold;
+  opacity: 0.1;
+}
+
+.textoContactMe {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* max-width: 400px; */
+}
+
+.cardIconContact {
+  max-width: 80px;
+  max-height: 100px;
+  padding: 0.7rem;
+}
+
+.cardIconContact:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem #e15e4a);
+}
+
+.contacIconosParrafo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.cardIconContactM {
+  max-width: 350px;
+  max-height: 100px;
+  padding: 0.1rem;
+}
+
+.cardIconContactM:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem #e15e4a);
+}
+
+@media screen and (max-width: 768px) {
+  .contactMe {
+    height: 100vh;
+  }
+  .contact {
+    font-size: 5rem;
+  }
+  .textoContactMe {
+    font-size: 15px;
+  }
+  .cardIconContact {
+    max-width: 50px;
+    max-height: 45px;
+    padding: 0.1rem;
+    margin-top: 130px;
+  }
+  .cardIconContactM {
+    max-width: 150px;
+    max-height: 45px;
+    padding: 0.1rem;
+    margin-top: 130px;
+  }
+  .contacIconosParrafo {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+  .cardIconContactM:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem #e15e4a);
+  }
+}

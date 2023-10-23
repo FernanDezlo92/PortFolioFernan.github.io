@@ -1,0 +1,35 @@
+.bioMe {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+  height: 100vh;
+}
+
+.bio {
+  position: relative;
+  font-size: 12rem;
+  font-weight: bold;
+  opacity: 0.1;
+  background-color: #e15e4a;
+}
+
+.textoBioMe {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.columnLeft {
+  flex: 1; /* La primera columna tomará una parte igual del espacio disponible */
+}
+
+.columnRight {
+  flex: 1; /* La segunda columna tomará una parte igual del espacio disponible */
+}
