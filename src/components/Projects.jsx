@@ -67,12 +67,20 @@ export default function Projects(props) {
           </div>
           <div className="linksProjecto">
             <h4>Te gustaría saber más...</h4>
-            <button onClick={handleLink} className="buttonLink">
-              <span>GitHub</span>
-            </button>
-            <button onClick={handleOpen} className="buttonLink">
-              <span>Video</span>
-            </button>
+            <div className="containerBotonProjectos">
+              <button onClick={handleLink} className="boton link">
+                <span>GitHub</span>
+                <svg>
+                  <rect x="0" y="0" fill="none"></rect>
+                </svg>
+              </button>
+              <button onClick={handleOpen} className="boton link">
+                <span>Video</span>
+                <svg>
+                  <rect x="0" y="0" fill="none"></rect>
+                </svg>
+              </button>
+            </div>
           </div>
           <ModalComponent
             open={open}

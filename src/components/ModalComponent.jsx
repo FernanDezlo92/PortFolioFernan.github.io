@@ -34,13 +34,11 @@ const ModalComponent = ({
         aria-describedby="modal-modal-description"
       >
         <Box sx={style} className="BoxModal">
-          <button
-            onClick={onClose}
-            className="buttonLink buttonClose"
-            fontFamily={"Inconsolata, monospace"}
-          >
-            <span>X</span>
-          </button>
+          <div className="containerBoton">
+            <div onClick={onClose} className="buttonClose">
+              <a className="btn btnClose">X</a>
+            </div>
+          </div>
           <Typography
             className="modalTitle"
             id="modal-modal-title"

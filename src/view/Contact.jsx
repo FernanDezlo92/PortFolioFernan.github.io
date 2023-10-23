@@ -50,19 +50,23 @@ export default function Contact() {
       <div className="contact">Contact</div>
       <div className="textoContactMe">
         <div className="contacIconosParrafo">
-          <img
-            src="/img/logoContact/brand-github.png"
-            className="cardIconContact"
-            alt="HTML"
-          />
+          <a href="https://github.com/FernanDezlo92" target="blank">
+            <img
+              src="/img/logoContact/brand-github.png"
+              className="cardIconContact"
+              alt="HTML"
+            />
+          </a>
           <p>Github</p>
         </div>
         <div className="contacIconosParrafo">
-          <img
-            src="/img/logoContact/brand-linkedin.png"
-            className="cardIconContact"
-            alt="HTML"
-          />
+          <a href="https://www.linkedin.com/in/FernandoDezlo" target="blank">
+            <img
+              src="/img/logoContact/brand-linkedin.png"
+              className="cardIconContact"
+              alt="HTML"
+            />
+          </a>
           <p>Linkedin</p>
         </div>
         <div className="contacIconosParrafo">
@@ -74,11 +78,13 @@ export default function Contact() {
           <p>Mail</p>
         </div>
         <div className="contacIconosParrafo">
-          <img
-            src="/img/logoContact/cv.png"
-            className="cardIconContact"
-            alt="HTML"
-          />
+          <a href="/curriculum/FernandoFA-CV.pdf" download>
+            <img
+              src="/img/logoContact/cv.png"
+              className="cardIconContact"
+              alt="HTML"
+            />
+          </a>
           <p>Currículum</p>
         </div>
       </div>
