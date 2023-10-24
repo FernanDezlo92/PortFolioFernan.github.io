@@ -47,7 +47,7 @@ export default function Contact() {
   }, [screenWidth]);
   return (
     <div className="contactMe">
-      <div className="contact">Contact</div>
+      <div className="contact">CONTACTO</div>
       <div className="textoContactMe">
         <div className="contacIconosParrafo">
           <a href="https://github.com/FernanDezlo92" target="blank">

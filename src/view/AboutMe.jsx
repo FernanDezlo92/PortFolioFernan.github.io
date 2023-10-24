@@ -31,7 +31,7 @@ export default function AboutMe() {
 
   return (
     <div className="aboutMe">
-      <div className="about about-component-aboutme">ABOUT ME</div>
+      <div className="about about-component-aboutme">SOBRE MI</div>
       <div className="textoAboutMe">
         Estoy especializado tanto en el desarrollo Backend como en el Frontend,
         lo que me permite abordar proyectos de manera integral y ofrecer
