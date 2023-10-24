@@ -24,12 +24,11 @@
   display: flex;
   align-items: center;
   text-align: center;
+  font-family: "Inconsolata", monospace;
 }
 
-.columnLeft {
-  flex: 1; /* La primera columna tomará una parte igual del espacio disponible */
-}
-
-.columnRight {
-  flex: 1; /* La segunda columna tomará una parte igual del espacio disponible */
+@media screen and (max-width: 768px) {
+  .bio {
+    font-size: 4rem;
+  }
 }

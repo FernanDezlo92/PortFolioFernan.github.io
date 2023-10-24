@@ -18,6 +18,8 @@
 h4 {
   color: #ced18b;
   filter: brightness(1.1);
+  font-family: "Inconsolata", monospace;
+  filter: drop-shadow(1px 2px 3px black);
 }
 
 .leftColumn {
@@ -71,6 +73,8 @@ h4 {
   animation: glowing 20s linear infinite;
 }
 
+/* filter: drop-shadow(2px 4px 6px black); */
+
 .tituloProject {
   font-size: 2.5rem;
   font-weight: 700;
@@ -78,9 +82,20 @@ h4 {
   margin: auto;
   padding: 10px;
   filter: drop-shadow(0 0 0.75rem #ced18b);
+  font-family: "Inconsolata", monospace;
 }
 
 .descripcionProject {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 10px;
+  padding: 10px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.skillsProjecto {
   font-size: 1rem;
   font-weight: 400;
   color: #000000;
@@ -89,19 +104,10 @@ h4 {
   margin: auto;
 }
 
-.skillsProjecto {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #090909;
-  margin-top: 10px;
-  padding: 10px;
-  margin: auto;
-}
-
 .linksProjecto {
   font-size: 1rem;
   font-weight: 400;
-  color: #090909;
+  color: #000000;
   margin-top: 10px;
   padding: 10px;
   margin: auto;
@@ -118,6 +124,7 @@ h4 {
   margin-right: 10px;
   outline: none;
   border: none;
+  font-family: "Inconsolata", monospace;
 }
 
 .containerBotonProjectos {
@@ -130,6 +137,7 @@ h4 {
   transition: 0.3s ease all;
   outline: none;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .boton.link {

@@ -70,11 +70,13 @@ export default function Contact() {
           <p>Linkedin</p>
         </div>
         <div className="contacIconosParrafo">
-          <img
-            src="/img/logoContact/mail3.png"
-            className="cardIconContactM"
-            alt="HTML"
-          />
+          <a href="mailto:fernanfernandezag@gmail.com">
+            <img
+              src="/img/logoContact/mail3.png"
+              className="cardIconContactM"
+              alt="HTML"
+            />
+          </a>
           <p>Mail</p>
         </div>
         <div className="contacIconosParrafo">

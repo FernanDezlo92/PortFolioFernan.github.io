@@ -10,17 +10,18 @@ import RepeatIcon from "@mui/icons-material/Repeat";
 import Typography from "@mui/material/Typography";
 import SchoolIcon from "@mui/icons-material/School";
 import CodeIcon from "@mui/icons-material/Code";
+import "../styles/CustomizedTimeline.css";
 
 export default function CustomizedTimeline() {
   return (
-    <Timeline position="alternate">
+    <Timeline position="alternate" className="Timeline">
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: "auto 0" }}
           align="right"
           variant="body2"
           color="text.secondary"
-          style={{ fontFamily: "Inconsolata, monospace", fontSize: "1.2rem" }}
+          className="timelineOppositeContent"
         >
           Septiembre 2015
           <br /> Noviembre 2021
@@ -33,14 +34,10 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
-          <Typography
-            variant="h6"
-            component="span"
-            style={{ fontFamily: "Inconsolata, monospace" }}
-          >
+          <Typography variant="h6" component="span" className="timelineContent">
             Universidad de Ciencias Políticas y Sociología
           </Typography>
-          <Typography style={{ fontFamily: "Inconsolata, monospace" }}>
+          <Typography className="titlelineContent">
             Grado en Sociología.
           </Typography>
         </TimelineContent>
@@ -50,7 +47,7 @@ export default function CustomizedTimeline() {
           sx={{ m: "auto 0" }}
           variant="body2"
           color="text.secondary"
-          style={{ fontFamily: "Inconsolata, monospace", fontSize: "1.2rem" }}
+          className="timelineOppositeContent"
         >
           Septiembre 2021
           <br /> Actualidad
@@ -63,14 +60,10 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
-          <Typography
-            variant="h6"
-            component="span"
-            style={{ fontFamily: "Inconsolata, monospace" }}
-          >
+          <Typography variant="h6" component="span" className="timelineContent">
             Formación Online Autoformación
           </Typography>
-          <Typography style={{ fontFamily: "Inconsolata, monospace" }}>
+          <Typography className="titlelineContent">
             Oracle Academy, Mastermind, Udemy...
           </Typography>
         </TimelineContent>
@@ -81,7 +74,7 @@ export default function CustomizedTimeline() {
           align="right"
           variant="body2"
           color="text.secondary"
-          style={{ fontFamily: "Inconsolata, monospace", fontSize: "1.2rem" }}
+          className="timelineOppositeContent"
         >
           Febrero 2022
           <br /> Actualidad
@@ -94,14 +87,10 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
-          <Typography
-            variant="h6"
-            component="span"
-            style={{ fontFamily: "Inconsolata, monospace" }}
-          >
+          <Typography variant="h6" component="span" className="timelineContent">
             Universidad Abierta de Cataluña
           </Typography>
-          <Typography style={{ fontFamily: "Inconsolata, monospace" }}>
+          <Typography className="titlelineContent">
             Grado superior de Desarrollo de Aplicaciones Web.
           </Typography>
         </TimelineContent>
@@ -115,15 +104,11 @@ export default function CustomizedTimeline() {
           <TimelineConnector sx={{ bgcolor: "#388e3c" }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
-          <Typography
-            variant="h6"
-            component="span"
-            style={{ fontFamily: "Inconsolata, monospace" }}
-          >
+          <Typography variant="h6" component="span" className="timelineContent">
             Y más...
           </Typography>
-          <Typography style={{ fontFamily: "Inconsolata, monospace" }}>
-            Para ser un buen Programador, siempre hay que estar aprendiendo
+          <Typography className="titlelineContent">
+            Porqué siempre hay que estar aprendiendo
           </Typography>
         </TimelineContent>
       </TimelineItem>

@@ -1,5 +1,5 @@
 :root {
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata", monospace !important;
   margin: 0;
   padding: 0;
   width: 100%;

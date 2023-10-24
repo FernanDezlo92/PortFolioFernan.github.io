@@ -1,0 +1,22 @@
+/* Estilos base para timelineOppositeContent y timelineContent */
+.timelineOppositeContent,
+.timelineContent,
+.titlelineContent {
+  font-family: "Inconsolata, monospace" !important;
+  font-size: 1.2rem !important;
+}
+
+/* Estilos para pantallas más pequeñas (menos de 768px de ancho) */
+@media screen and (max-width: 768px) {
+  .timelineOppositeContent {
+    font-size: 0.8rem !important;
+  }
+
+  .timelineContent {
+    font-size: 1rem !important; /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+
+  .titlelineContent {
+    font-size: 0.8rem !important;
+  }
+}
