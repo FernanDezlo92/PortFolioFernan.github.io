@@ -62,7 +62,7 @@ export default function Projects(props) {
             <p className="descripcionProject">{descripcion}</p>
           </div>
           <div className="skillsProjecto">
-            <h4>Tecnologias:</h4>
+            <h4>Tecnologías:</h4>
             {skills}
           </div>
           <div className="linksProjecto">

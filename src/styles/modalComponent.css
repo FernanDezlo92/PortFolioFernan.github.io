@@ -53,6 +53,12 @@
 
 @media screen and (max-width: 568px) {
   .BoxModal {
-    width: 300px !important;
+    width: 290px !important;
+  }
+  .modalTitle {
+    font-size: 1.3rem !important;
+  }
+  .modalDescription {
+    font-size: 0.8rem !important;
   }
 }

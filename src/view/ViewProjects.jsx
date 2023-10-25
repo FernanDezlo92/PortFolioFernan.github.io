@@ -84,7 +84,7 @@ export default function ViewProjects() {
             />
           </>
         }
-        links="https://github.com/FernanDezlo92/PHPLaravelPrd4"
+        links="https://github.com/FernanDezlo92/WeatherApp"
         img={[
           <img
             key="img3"
@@ -101,10 +101,10 @@ export default function ViewProjects() {
         ]}
         descripcionModal="Aplicación elaborada en React y con la API de OpenWeatherMap, una
             fuente confiable de datos meteorológicos. Dedicado a aprender a usar
-            una APi correctamente, las busquedas, los filtros, etc. A través de
+            una APi correctamente, las búsquedas, los filtros, etc. A través de
             la aplicación se ha usado potentes herramientas de React, como los
             Hooks, useEffect y useState, que son fundamentales."
-        urlVideo="/modalVideo/videoModelDos.mp4"
+        urlVideo="/modalVideo/videoModelTres.mp4"
         invertido={false} // Nueva propiedad para invertir la disposición
       />
       <Projects
@@ -132,7 +132,7 @@ export default function ViewProjects() {
             />
           </>
         }
-        links="https://github.com/FernanDezlo92/PHPLaravelPrd4"
+        links="https://github.com/FernanDezlo92/JSProducto4"
         img={[
           <img
             key="img2"
@@ -159,13 +159,13 @@ export default function ViewProjects() {
             HTML, apis como Drag and Drop, además de diseñar e implementar una
             API GraphQL/APollo y acceder a ella mediante una comunicación
             asíncrona cliente-servidor."
-        urlVideo="/modalVideo/videoModelTres.mp4"
+        urlVideo="/modalVideo/videoModelDos.mp4"
       />
       <Projects
         numero={4}
         titulo="Aplicación de Booking"
         descripcion="Con esta aplicación podrás ver los hoteles disponibles y reservar un
-        dia concreto."
+        día concreto."
         skills={
           <>
             <img
@@ -182,7 +182,7 @@ export default function ViewProjects() {
             />
           </>
         }
-        links="https://github.com/FernanDezlo92/PHPLaravelPrd4"
+        links="https://github.com/FernanDezlo92/Booking-App"
         img={[
           <img
             key="img1"
@@ -205,7 +205,7 @@ export default function ViewProjects() {
         ]}
         descripcionModal="Esta construida en React y potenciada por React Router, Materia-UI
             (MUI). Además puedes acceder a los datos obtenidos de un JSON local
-            a traves de React Server. Explora y filtra informacion con
+            a traves de React Server. Explora y filtra información con
             facilidad. A través de la aplicación se ha usado potentes
             herramientas de React, como los Hooks, useEffect y useState, para
             potenciar la experiencia."
