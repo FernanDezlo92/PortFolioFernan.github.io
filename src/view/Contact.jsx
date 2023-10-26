@@ -80,7 +80,7 @@ export default function Contact() {
           <p>Mail</p>
         </div>
         <div className="contacIconosParrafo">
-          <a href="/curriculum/FernandoFA-CV.pdf" download>
+          <a href="./curriculum/FernandoFA-CV.pdf" download>
             <img
               src="./img/logoContact/cv.png"
               className="cardIconContact"
