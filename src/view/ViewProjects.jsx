@@ -11,19 +11,19 @@ export default function ViewProjects() {
         descripcion="Aplicación de gestión académica escolar, para la gestión de alumnos, docentes, actos, etc."
         skills={
           <>
-            <img src="/img/skillsIMG/php.png" className="cardIcon" alt="php" />
+            <img src="./img/skillsIMG/php.png" className="cardIcon" alt="php" />
             <img
-              src="/img/skillsIMG/laravel.png"
+              src="./img/skillsIMG/laravel.png"
               className="cardIcon"
               alt="laravel"
             />
             <img
-              src="/img/skillsIMG/mysql.png"
+              src="./img/skillsIMG/mysql.png"
               className="cardIcon"
               alt="mysql"
             />
             <img
-              src="/img/skillsIMG/ballena.png"
+              src="./img/skillsIMG/ballena.png"
               className="cardIcon"
               alt="ballena"
             />
@@ -33,19 +33,19 @@ export default function ViewProjects() {
         img={[
           <img
             key="img1"
-            src="/img/ProjectosIMG/GestionIpad1.png"
+            src="./img/ProjectosIMG/GestionIpad1.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img2"
-            src="/img/ProjectosIMG/GestionIpad2.png"
+            src="./img/ProjectosIMG/GestionIpad2.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img3"
-            src="/img/ProjectosIMG/GestionOrdenador3.png"
+            src="./img/ProjectosIMG/GestionOrdenador3.png"
             alt=""
             className="imagenesPro"
           />,
@@ -66,19 +66,19 @@ export default function ViewProjects() {
         del mundo."
         skills={
           <>
-            <img src="/img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
+            <img src="./img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
             <img
-              src="/img/skillsIMG/react-logo.png"
+              src="./img/skillsIMG/react-logo.png"
               className="cardIcon"
               alt="HTML"
             />
             <img
-              src="/img/skillsIMG/html.png"
+              src="./img/skillsIMG/html.png"
               className="cardIcon"
               alt="HTML"
             />
             <img
-              src="/img/skillsIMG/css-3.png"
+              src="./img/skillsIMG/css-3.png"
               className="cardIcon"
               alt="HTML"
             />
@@ -88,13 +88,13 @@ export default function ViewProjects() {
         img={[
           <img
             key="img3"
-            src="/img/ProjectosIMG/weatherOrdenador3.png"
+            src="./img/ProjectosIMG/weatherOrdenador3.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img1"
-            src="/img/ProjectosIMG/weatherIpad1.png"
+            src="./img/ProjectosIMG/weatherIpad1.png"
             alt=""
             className="imagenesPro"
           />,
@@ -114,19 +114,19 @@ export default function ViewProjects() {
         estructura del lenguaje JavaScript."
         skills={
           <>
-            <img src="/img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
+            <img src="./img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
             <img
-              src="/img/skillsIMG/graphql.png"
+              src="./img/skillsIMG/graphql.png"
               className="cardIcon"
               alt="HTML"
             />
             <img
-              src="/img/skillsIMG/letra-b.png"
+              src="./img/skillsIMG/letra-b.png"
               className="cardIcon"
               alt="HTML"
             />
             <img
-              src="/img/skillsIMG/nodejs.png"
+              src="./img/skillsIMG/nodejs.png"
               className="cardIcon"
               alt="HTML"
             />
@@ -136,19 +136,19 @@ export default function ViewProjects() {
         img={[
           <img
             key="img2"
-            src="/img/ProjectosIMG/todoIpad1.png"
+            src="./img/ProjectosIMG/todoIpad1.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img1"
-            src="/img/ProjectosIMG/todoIpad2.png"
+            src="./img/ProjectosIMG/todoIpad2.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img3"
-            src="/img/ProjectosIMG/todoOrdenador3.png"
+            src="./img/ProjectosIMG/todoOrdenador3.png"
             alt=""
             className="imagenesPro"
           />,
@@ -169,14 +169,18 @@ export default function ViewProjects() {
         skills={
           <>
             <img
-              src="/img/skillsIMG/react-logo.png"
+              src="./img/skillsIMG/react-logo.png"
               className="cardIcon"
               alt="HTML"
             />
-            <img src="/img/skillsIMG/mui.png" className="cardIcon" alt="HTML" />
-            <img src="/img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
             <img
-              src="/img/skillsIMG/css-3.png"
+              src="./img/skillsIMG/mui.png"
+              className="cardIcon"
+              alt="HTML"
+            />
+            <img src="./img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
+            <img
+              src="./img/skillsIMG/css-3.png"
               className="cardIcon"
               alt="HTML"
             />
@@ -186,19 +190,19 @@ export default function ViewProjects() {
         img={[
           <img
             key="img1"
-            src="/img/ProjectosIMG/bookOrdenador3.png"
+            src="./img/ProjectosIMG/bookOrdenador3.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img2"
-            src="/img/ProjectosIMG/bookIpad1.png"
+            src="./img/ProjectosIMG/bookIpad1.png"
             alt=""
             className="imagenesPro"
           />,
           <img
             key="img3"
-            src="/img/ProjectosIMG/bookIpad2.png"
+            src="./img/ProjectosIMG/bookIpad2.png"
             alt=""
             className="imagenesPro"
           />,

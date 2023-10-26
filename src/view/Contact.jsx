@@ -52,7 +52,7 @@ export default function Contact() {
         <div className="contacIconosParrafo">
           <a href="https://github.com/FernanDezlo92" target="blank">
             <img
-              src="/img/logoContact/brand-github.png"
+              src="./img/logoContact/brand-github.png"
               className="cardIconContact"
               alt="HTML"
             />
@@ -62,7 +62,7 @@ export default function Contact() {
         <div className="contacIconosParrafo">
           <a href="https://www.linkedin.com/in/FernandoDezlo" target="blank">
             <img
-              src="/img/logoContact/brand-linkedin.png"
+              src="./img/logoContact/brand-linkedin.png"
               className="cardIconContact"
               alt="HTML"
             />
@@ -72,7 +72,7 @@ export default function Contact() {
         <div className="contacIconosParrafo">
           <a href="mailto:fernanfernandezag@gmail.com">
             <img
-              src="/img/logoContact/mail3.png"
+              src="./img/logoContact/mail3.png"
               className="cardIconContactM"
               alt="HTML"
             />
@@ -82,7 +82,7 @@ export default function Contact() {
         <div className="contacIconosParrafo">
           <a href="/curriculum/FernandoFA-CV.pdf" download>
             <img
-              src="/img/logoContact/cv.png"
+              src="./img/logoContact/cv.png"
               className="cardIconContact"
               alt="HTML"
             />
