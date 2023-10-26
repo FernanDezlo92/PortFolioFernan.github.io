@@ -55,7 +55,7 @@ export default function ViewProjects() {
             asignaturas, y la generación de listados dinámicos. Todo ello con
             PHP y su framework Laravel, POO, MVC, CMS y el uso de la base de
             datos MySQL."
-        urlVideo="/modalVideo/videoModelUno.mp4"
+        urlVideo="./modalVideo/videoModelUno.mp4"
       />
 
       {/* Proyecto 2 con imagen a la derecha y texto a la izquierda */}
@@ -104,7 +104,7 @@ export default function ViewProjects() {
             una APi correctamente, las búsquedas, los filtros, etc. A través de
             la aplicación se ha usado potentes herramientas de React, como los
             Hooks, useEffect y useState, que son fundamentales."
-        urlVideo="/modalVideo/videoModelTres.mp4"
+        urlVideo="./modalVideo/videoModelTres.mp4"
         invertido={false} // Nueva propiedad para invertir la disposición
       />
       <Projects
@@ -159,7 +159,7 @@ export default function ViewProjects() {
             HTML, apis como Drag and Drop, además de diseñar e implementar una
             API GraphQL/APollo y acceder a ella mediante una comunicación
             asíncrona cliente-servidor."
-        urlVideo="/modalVideo/videoModelDos.mp4"
+        urlVideo="./modalVideo/videoModelDos.mp4"
       />
       <Projects
         numero={4}
@@ -213,7 +213,7 @@ export default function ViewProjects() {
             facilidad. A través de la aplicación se ha usado potentes
             herramientas de React, como los Hooks, useEffect y useState, para
             potenciar la experiencia."
-        urlVideo="/modalVideo/videoModelCuatro.mp4"
+        urlVideo="./modalVideo/videoModelCuatro.mp4"
         invertido={false} // Nueva propiedad para invertir la disposición
       />
     </div>
