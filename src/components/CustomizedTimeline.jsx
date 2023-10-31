@@ -23,8 +23,8 @@ export default function CustomizedTimeline() {
           color="text.secondary"
           className="timelineOppositeContent"
         >
-          Septiembre 2015
-          <br /> Noviembre 2021
+          September 2015
+          <br /> November 2021
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -35,10 +35,10 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
           <Typography variant="h6" component="span" className="timelineContent">
-            Universidad de Ciencias Políticas y Sociología
+            University of Political and Social Sciences
           </Typography>
           <Typography className="titlelineContent">
-            Grado en Sociología.
+            Degree in Sociology.
           </Typography>
         </TimelineContent>
       </TimelineItem>
@@ -49,8 +49,8 @@ export default function CustomizedTimeline() {
           color="text.secondary"
           className="timelineOppositeContent"
         >
-          Septiembre 2021
-          <br /> Actualidad
+          September 2021
+          <br /> Present
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -61,7 +61,7 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
           <Typography variant="h6" component="span" className="timelineContent">
-            Formación Online Autoformación
+            Online Self-Education
           </Typography>
           <Typography className="titlelineContent">
             Oracle Academy, Mastermind, Udemy...
@@ -76,8 +76,8 @@ export default function CustomizedTimeline() {
           color="text.secondary"
           className="timelineOppositeContent"
         >
-          Febrero 2022
-          <br /> Actualidad
+          February 2022
+          <br /> Present
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -88,10 +88,10 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
           <Typography variant="h6" component="span" className="timelineContent">
-            Universidad Abierta de Cataluña
+            Open University of Catalonia
           </Typography>
           <Typography className="titlelineContent">
-            Grado superior de Desarrollo de Aplicaciones Web.
+            Degree in Web Application Development.
           </Typography>
         </TimelineContent>
       </TimelineItem>
@@ -105,10 +105,10 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: "35px", px: 2 }}>
           <Typography variant="h6" component="span" className="timelineContent">
-            Y más...
+            And more...
           </Typography>
           <Typography className="titlelineContent">
-            Porqué siempre hay que estar aprendiendo
+            Because there&apos;s always more to learn.
           </Typography>
         </TimelineContent>
       </TimelineItem>

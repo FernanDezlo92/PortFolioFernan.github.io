@@ -62,11 +62,11 @@ export default function Projects(props) {
             <p className="descripcionProject">{descripcion}</p>
           </div>
           <div className="skillsProjecto">
-            <h4>Tecnologías:</h4>
+            <h4>Technologies:</h4>
             {skills}
           </div>
           <div className="linksProjecto">
-            <h4>Te gustaría saber más...</h4>
+            <h4>Would you like to know more...</h4>
             <div className="containerBotonProjectos">
               <button onClick={handleLink} className="boton link">
                 <span>GitHub</span>

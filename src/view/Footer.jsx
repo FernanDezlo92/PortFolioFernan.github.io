@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer fondoClaro">
       <div className="footerContainer">
         <Cup />
-        <p className="textoFooter">{"< No te vayas sin decir hola />"}</p>
+        <p className="textoFooter">{"< Don't leave without saying hello />"}</p>
         <p className="copyright">©2023 FernandoDezlo</p>
       </div>
     </footer>

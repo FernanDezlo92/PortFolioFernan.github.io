@@ -5,7 +5,7 @@ export default function MainView() {
   return (
     <div className="mainview">
       <div className="nombre">Fernando Fernández Aguiló</div>
-      <div className="titulo">Desarrollador Web</div>
+      <div className="titulo">Web developer</div>
       <SouthIcon
         className="arrow"
         style={{ fontSize: "3rem", fontWeight: "bold" }}

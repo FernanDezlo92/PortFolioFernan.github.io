@@ -7,8 +7,8 @@ export default function ViewProjects() {
       {/* Proyecto 1 con imagen a la izquierda y texto a la derecha */}
       <Projects
         numero={1}
-        titulo="Gestión Académica"
-        descripcion="Aplicación de gestión académica escolar, para la gestión de alumnos, docentes, actos, etc."
+        titulo="Academic Management"
+        descripcion="School Academic Management Application for the management of students, teachers, events, etc."
         skills={
           <>
             <img src="./img/skillsIMG/php.png" className="cardIcon" alt="php" />
@@ -50,20 +50,18 @@ export default function ViewProjects() {
             className="imagenesPro"
           />,
         ]}
-        descripcionModal="Se basa en la construcción de una aplicación de gestión académica
-            escolar, con operaciones CRUD de cursos, estudiantes, profesores,
-            asignaturas, y la generación de listados dinámicos. Todo ello con
-            PHP y su framework Laravel, POO, MVC, CMS y el uso de la base de
-            datos MySQL."
+        descripcionModal="It is based on building a school academic management
+         application with CRUD operations for courses, students, teachers, subjects, and the generation of dynamic lists.
+          All of this using PHP and its Laravel framework, Object-Oriented Programming (OOP), Model-View-Controller (MVC) pattern,
+           a Content Management System (CMS), and MySQL database."
         urlVideo="./modalVideo/videoModelUno.mp4"
       />
 
       {/* Proyecto 2 con imagen a la derecha y texto a la izquierda */}
       <Projects
         numero={2}
-        titulo="Aplicación del tiempo"
-        descripcion="Con esta aplicación podrás saber el tiempo que hace en cualquier parte
-        del mundo."
+        titulo="Weather Application"
+        descripcion="With this application, you can find out the weather in any part of the world."
         skills={
           <>
             <img src="./img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
@@ -99,19 +97,17 @@ export default function ViewProjects() {
             className="imagenesPro"
           />,
         ]}
-        descripcionModal="Aplicación elaborada en React y con la API de OpenWeatherMap, una
-            fuente confiable de datos meteorológicos. Dedicado a aprender a usar
-            una APi correctamente, las búsquedas, los filtros, etc. A través de
-            la aplicación se ha usado potentes herramientas de React, como los
-            Hooks, useEffect y useState, que son fundamentales."
+        descripcionModal="Application built in React using the OpenWeatherMap API,
+         a reliable source of weather data. It is dedicated to learning how to use an API correctly,
+          including searches, filters, and more. Throughout the application, powerful React tools such as Hooks,
+           useEffect, and useState have been utilized, which are fundamental."
         urlVideo="./modalVideo/videoModelTres.mp4"
         invertido={false} // Nueva propiedad para invertir la disposición
       />
       <Projects
         numero={3}
-        titulo="Agenda Semanal"
-        descripcion="Aplicacion dedicada a desarrollar, implementar, modificar la
-        estructura del lenguaje JavaScript."
+        titulo="Weekly Planner"
+        descripcion="Application dedicated to developing, implementing, and modifying the JavaScript language structure."
         skills={
           <>
             <img src="./img/skillsIMG/js.png" className="cardIcon" alt="HTML" />
@@ -153,19 +149,16 @@ export default function ViewProjects() {
             className="imagenesPro"
           />,
         ]}
-        descripcionModal="Aplicacion dedicada a desarrollar, implementar, modificar y
-            optimizar la estructura del lenguaje JavaScript, tanto en el
-            desarrollo web del lado Cliente como en el lado Servidor, aplica
-            HTML, apis como Drag and Drop, además de diseñar e implementar una
-            API GraphQL/APollo y acceder a ella mediante una comunicación
-            asíncrona cliente-servidor."
+        descripcionModal="Application dedicated to developing, implementing, modifying,
+         and optimizing the structure of the JavaScript language, both in web development on the client and server sides.
+          It applies HTML, APIs like Drag and Drop, in addition to designing and implementing a GraphQL/Apollo API and accessing
+           it through asynchronous client-server communication."
         urlVideo="./modalVideo/videoModelDos.mp4"
       />
       <Projects
         numero={4}
-        titulo="Aplicación de Booking"
-        descripcion="Con esta aplicación podrás ver los hoteles disponibles y reservar un
-        día concreto."
+        titulo="Booking Application"
+        descripcion="With this application, you can view available hotels and make a reservation for a specific date."
         skills={
           <>
             <img
@@ -207,12 +200,7 @@ export default function ViewProjects() {
             className="imagenesPro"
           />,
         ]}
-        descripcionModal="Esta construida en React y potenciada por React Router, Materia-UI
-            (MUI). Además puedes acceder a los datos obtenidos de un JSON local
-            a traves de React Server. Explora y filtra información con
-            facilidad. A través de la aplicación se ha usado potentes
-            herramientas de React, como los Hooks, useEffect y useState, para
-            potenciar la experiencia."
+        descripcionModal="It is built in React and powered by React Router, Material-UI (MUI). Additionally, you can access data obtained from a local JSON through React Server. Explore and filter information with ease. Throughout the application, powerful React tools such as Hooks, useEffect, and useState have been used to enhance the experience."
         urlVideo="./modalVideo/videoModelCuatro.mp4"
         invertido={false} // Nueva propiedad para invertir la disposición
       />

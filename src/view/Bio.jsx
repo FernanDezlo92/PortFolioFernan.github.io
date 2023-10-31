@@ -7,7 +7,7 @@ export default function Bio() {
     <ParallaxProvider>
       <div className="bioMe">
         <Parallax translateX={[0, -15]}>
-          <div className="bio">BIOGRAFIA</div>
+          <div className="bio">BIOGRAPHY</div>
         </Parallax>
         <div className="textoBioMe">
           <CustomizedTimeline />
